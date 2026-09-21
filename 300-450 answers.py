@@ -1,9 +1,9 @@
 #301. Python is not strongly typed. it is dynamically typed.
 # you can reassign a variable to a completely different type with no error.
 x = 5
-print(x)        # 5
+print(x)       
 x = "hello"
-print(x)        # hello
+print(x)        
 
 #302. input() always returns str. adding str to int raises TypeError.
 name = input("Enter name: ")
@@ -33,13 +33,7 @@ a = [1]
 b = [1]
 c = [1]
 c.append(2)
-print(a, b, c)  # [1] [1] [1, 2]
-# or use copy:
-a = b = c = [1]
-a = a.copy()
-b = b.copy()
-c.append(2)
-print(a, b, c)  # [1] [1] [1, 2]
+print(a, b, c) 
 
 #307.
 # NameError  — accessing a variable that has not been created yet.
@@ -175,13 +169,13 @@ y_ref.append(99)
 print(x)      # [1, 2, 3, 99]
 
 y_copy.append(0)
-print(x)      # [1, 2, 3, 99]  (unchanged)
+print(x)      
 
 #326.
 balance = 1000
 for _ in range(3):
     balance -= 100
-print(balance)  # 700
+print(balance) 
 
 #327. dynamic variable creation using globals() — creates variable named "x1".
 globals()['x' + str(1)] = 10
