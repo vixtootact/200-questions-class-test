@@ -445,7 +445,6 @@ x *= 2
 x *= 2
 x *= 2
 print(x)  # 40
-mai
 #199. BODMAS stands for Brackets, Orders (exponents), Division, Multiplication,
 #     Addition, Subtraction. Python follows this exact order of precedence.
 #     e.g: 2 + 3 * 4 gives 14 because * is evaluated before +.

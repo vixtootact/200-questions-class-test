@@ -1,5 +1,3 @@
-# VARIABLES - Advanced Practical (201-230)
-
 #201.
 user_name = input("Enter your name: ")
 print(user_name.upper())
